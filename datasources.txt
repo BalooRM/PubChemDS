@@ -1,0 +1,11 @@
+The following are sources of chemical substances of potential hazard interest. 
+
+
+EPA TSCA Chemical Substance Inventory
+https://www.epa.gov/tsca-inventory/how-access-tsca-inventory#formatted
+
+FDA Unique Ingredient Identifier (UNII)
+https://fdasis.nlm.nih.gov/srs/
+Download
+https://fdasis.nlm.nih.gov/srs/jsp/srs/uniiListDownload.jsp
+
