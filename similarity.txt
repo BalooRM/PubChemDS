@@ -1,0 +1,8 @@
+
+The Calculation of Molecular Similarity: Principles and Practice
+Peter Willett, University of Sheffield
+http://infochim.u-strasbg.fr/CS3_2014/Slides/CS3_2014_Willett.pdf
+
+Similarity Measure for Molecular Structure: A Brief Review
+S A Bero, A K Muda, Y H Choo, N A Muda and S F Pratama
+https://iopscience.iop.org/article/10.1088/1742-6596/892/1/012015
