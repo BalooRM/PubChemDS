@@ -9,3 +9,32 @@ https://fdasis.nlm.nih.gov/srs/
 Download
 https://fdasis.nlm.nih.gov/srs/jsp/srs/uniiListDownload.jsp
 
+https://fdasis.nlm.nih.gov/srs/download/srs/UNII_Data.zip
+
+CDC Emergency Response Safety and Health Database
+https://www.cdc.gov/niosh/ershdb/index_cas.html
+
+
+HSDB
+https://www.nlm.nih.gov/databases/download/hsdb.html
+
+European Chemical Agency (ECHA)?
+ECHA resource added The The European Chemical Agency (ECHA) has information (although not specifically SDS's) on 235,578 chemicals. See Government and non-profit agencies. Mar-2018 (http://www.ilpi.com/msds/)
+https://echa.europa.eu/information-on-chemicals/registered-substances
+
+OECD
+https://www.echemportal.org/echemportal/index.action
+
+
+MSDS sources
+
+Free on-line, has MSDS and GHS, requires registration, automatable? 
+https://www.msdsonline.com/sds-search/
+
+http://www.ilpi.com/msds/
+http://www.ilpi.com/msds/#Government
+
+http://www.safetyemporium.com/
+
+GHS Information
+https://www.echemportal.org/echemportal/substancesearch/page.action?pageID=134
