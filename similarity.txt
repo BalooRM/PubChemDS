@@ -6,3 +6,24 @@ http://infochim.u-strasbg.fr/CS3_2014/Slides/CS3_2014_Willett.pdf
 Similarity Measure for Molecular Structure: A Brief Review
 S A Bero, A K Muda, Y H Choo, N A Muda and S F Pratama
 https://iopscience.iop.org/article/10.1088/1742-6596/892/1/012015
+
+PubChem
+https://pubchem.ncbi.nlm.nih.gov/sar/
+
+Note: Search Compounds Clusters by Clustering Apporach (BETA)
+
+The PubChem Databases contains BioActivity screens of chemicals as well their structural, physical and chemical properties. There are various ways to look at these multiple millions of records. At this scale, one promising approach is to cluster small molecules from multiple aspects to enable a meaningful pattern discovery. Providing pre-computed clusters of millions of molecules provided this service to tackle this task, based on five types of distance matrices, i.e. 2d similarity by PubChem fingerprint, 3d similarity either by their shape, or by color representing the properties at certain orientation, and targeting at 3 different aspects:
+1) Compounds active in a bioassay
+2) Compounds active to a protein target;
+3) Compounds active to those protein targets that participating the same biological pathway.
+
+
+Searching Options:
+
+Searching Clusters by PubChem BioAssay AID
+Searching Clusters by Protein Target Gi
+Searching Clusters by BioSystem Bsid
+Searching Compounds tested non-active in assays, proteins and biosystems
+ 
+PubChem will discontinue this service on September 1, 2019. For more information, please visit this help document page
+ 
