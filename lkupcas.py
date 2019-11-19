@@ -33,7 +33,10 @@ for compound in pcp.get_compounds(myname, 'name'):
         m = re.search('^UNII', mysyn)
         if m != None:
             print ('UNII\t', mysyn)
+        m = re.search('^HSDB', mysyn)
+        if m != None:
+            print ('HSDB\t', mysyn)
     # if the CASRN was not found with the CAS prefix, use the search value
     if myfound == 0:
-        print ('CASRN\t', myname)
+        print ('Name Searched\t', myname)
     print ('Synonyms:\n', compound.synonyms)
