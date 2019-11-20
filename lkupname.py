@@ -25,8 +25,13 @@ for compound in pcp.get_compounds(myname, 'name'):
     print ('Fingerprint\t', compound.fingerprint)
     print ('Isomeric SMILES\t', compound.isomeric_smiles)
     print ('Canonical SMILES\t', compound.canonical_smiles)
+    casrnpattern = re.compile('^[0-9]{1,6}-[0-9]{1,3}-[0-9]{1}$')
     for mysyn in compound.synonyms:
         m = re.search('^CAS', mysyn)
+        if m != None:
+            myfound = 1
+            print ('CASRN\t', mysyn)
+        m = re.search(casrnpattern, mysyn)
         if m != None:
             myfound = 1
             print ('CASRN\t', mysyn)
