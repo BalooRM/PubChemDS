@@ -26,6 +26,7 @@ for compound in pcp.get_compounds(myname, 'name'):
     print ('Isomeric SMILES\t', compound.isomeric_smiles)
     print ('Canonical SMILES\t', compound.canonical_smiles)
     casrnpattern = re.compile('^[0-9]{1,6}-[0-9]{1,3}-[0-9]{1}$')
+    ecrnpattern = re.compile('[2-9]{1}[0-9]{2}-[0-9]{3}-[0-9]{1}$')
     for mysyn in compound.synonyms:
         m = re.search('^CAS', mysyn)
         if m != None:
@@ -33,8 +34,13 @@ for compound in pcp.get_compounds(myname, 'name'):
             print ('CASRN\t', mysyn)
         m = re.search(casrnpattern, mysyn)
         if m != None:
-            myfound = 1
             print ('CASRN\t', mysyn)
+        m = re.search('^EC', mysyn)
+        if m != None:
+            print ('EC\t', mysyn)
+        m = re.search(ecrnpattern, mysyn)
+        if m != None:
+            print ('EC\t', mysyn)
         m = re.search('^UNII', mysyn)
         if m != None:
             print ('UNII\t', mysyn)
