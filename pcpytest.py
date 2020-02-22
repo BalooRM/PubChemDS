@@ -1,7 +1,10 @@
 import pubchempy as pcp
 import re
 
-for compound in pcp.get_compounds('benzophenone', 'name'):
+#for compound in pcp.get_compounds('benzophenone', 'name'):
+#for compound in pcp.get_compounds('1393-62-0', 'name'):
+for compound in pcp.get_compounds('Abrin', 'name'):
+#for compound in pcp.get_compounds(4369106, 'cid'):
     print ('CID\t', compound.cid)
     print ('Formula\t', compound.molecular_formula)
     print ('Mol Wt\t', compound.molecular_weight)
@@ -20,4 +23,4 @@ for compound in pcp.get_compounds('benzophenone', 'name'):
         m = re.search('^UNII', mysyn)
         if m != None:
             print ('UNII\t', mysyn)
-    #print ('Synonyms:\n', compound.synonyms)
+    print ('Synonyms:\n', compound.synonyms)
