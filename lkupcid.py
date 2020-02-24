@@ -34,6 +34,9 @@ if (1 == 1):
         m = re.search('^UNII', mysyn)
         if m != None:
             print ('UNII\t', mysyn)
+        m = re.search('^HSDB', mysyn)
+        if m != None:
+            print ('HSDB\t', mysyn)
     # if the CASRN was not found with the CAS prefix, use the search value
     if myfound == 0:
         print ('CID\t', mycid)
