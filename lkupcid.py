@@ -3,7 +3,7 @@ import sys
 import re
 
 usage = ("Usage: \n"
-         " > python lkupcas.py \"search term\"")
+         " > python lkupcid.py \"search term\"")
          
 myargs = sys.argv
 if len(myargs) == 1:
